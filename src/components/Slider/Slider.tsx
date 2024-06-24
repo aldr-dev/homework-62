@@ -72,8 +72,8 @@ const Slider = () => {
             <div key={slider.title} className={`carousel-item ${slider.active ? 'active' : ''}`}>
               <img src={slider.img} className="d-block w-100 slider-img" alt={slider.alt}/>
               <div className="carousel-caption d-none d-md-block">
-                <h3>{slider.title}</h3>
-                <p>{slider.message}</p>
+                <h3 className="slider-title">{slider.title}</h3>
+                <p className="slider-desc">{slider.message}</p>
               </div>
             </div>
           ))}

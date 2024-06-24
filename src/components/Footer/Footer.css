@@ -1,0 +1,46 @@
+.footer-wrapper {
+  box-shadow: 1px 1px 11px #ddd;
+  background: #fff;
+}
+
+.brand-about-text {
+  font-family: Arial, sans-serif;
+  margin-top: 15px;
+}
+
+.fa-fb, .fa-tw, .fa-tg, .fa-yt {
+  height: 40px;
+  width: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  overflow: hidden;
+  background: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: .3s ease-in-out;
+}
+
+.fa-fb:hover {
+    color: #006AB9;
+}
+
+.fa-tw:hover {
+  color: #1faee9;
+}
+
+.fa-tg:hover {
+  color: #0088cc;
+}
+
+.fa-yt:hover {
+  color: #c4302b;
+}
+
+.footer-copyright {
+  box-shadow: 1px 1px 11px #ddd;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}

@@ -3,6 +3,8 @@ import Card from '../../components/Card/Card';
 import imgCube from '../../assets/slider/cube.jpg';
 import imgCanyon from '../../assets/slider/canyon.jpg';
 import imgScott from '../../assets/slider/scott.jpg';
+import activeShopBanner from '../../assets/ad-banner/active-shop-banner.jpeg';
+import Sidebar from '../../components/Sidebar/Sidebar';
 
 interface Posts {
   title: string;
@@ -15,6 +17,7 @@ interface Posts {
 const imgCubeTyped: string = imgCube as string;
 const imgCanyonTyped: string = imgCanyon as string;
 const imgScottTyped: string = imgScott as string;
+const banner: string = activeShopBanner as string;
 
 const postList: Posts[] = [
   {
@@ -52,10 +55,10 @@ const postList: Posts[] = [
 
 const Home = () => {
   return (
-    <main className="container-xxl">
-      <div className="row">
-        <div className="col-5">
-
+    <main className="container-xxl mb-5">
+      <div className="row justify-content-center">
+        <div className="col-3">
+          <Sidebar banner={banner}/>
         </div>
         <div className="col-7">
           <div className="d-flex flex-column gap-4">

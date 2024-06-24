@@ -9,8 +9,25 @@
   z-index: 10;
 }
 
+.slider-title {
+  margin-top: 6%;
+  font-size: 40px;
+}
+
 .slider-backdrop {
   margin-bottom: 100px;
+}
+
+.carousel-caption {
+  left: 50% !important;
+  top: 50%;
+  right: 0 !important;
+  transform: translate(-50%, -50%);
+}
+
+.slider-desc {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
 }
 
 .custom-setting-slider {

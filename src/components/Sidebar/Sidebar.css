@@ -1,0 +1,22 @@
+.ad-banner {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.ad-banner-img {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.ad-banner-text {
+  font-weight: 300;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #fff;
+  background: rgba(128, 128, 128, .3);
+  border-radius: 5px;
+  padding: 2px 15px;
+}
