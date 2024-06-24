@@ -1,6 +1,7 @@
 .footer-wrapper {
   box-shadow: 1px 1px 11px #ddd;
   background: #fff;
+  margin-top: auto;
 }
 
 .brand-about-text {

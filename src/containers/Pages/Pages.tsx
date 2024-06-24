@@ -4,15 +4,27 @@ import './Pages.css';
 import Slider from '../../components/Slider/Slider';
 import Home from '../Home/Home';
 import Footer from '../../components/Footer/Footer';
+import About from '../About/About';
+import {Route, Routes} from 'react-router-dom';
 
 const Pages = () => {
   return (
-    <>
+    <div className="wrapper">
       <Header />
-      <Slider />
-      <Home />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Slider />
+            <Home />
+          </>
+        }/>
+        <Route path="/about" element={
+          <About />
+        }/>
+        <Route path="*" element={<h1>Not found!</h1>}/>
+      </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 

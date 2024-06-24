@@ -1,9 +1,10 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <nav className="navbar navbar-expand-lg">
         <div className="container-xxl">
           <NavLink to="/" className="navbar-brand d-flex align-items-center">

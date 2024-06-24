@@ -4,3 +4,9 @@ body {
   font-weight: 500 !important;
   font-style: normal;
 }
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,20 @@
+.about-background-img {
+  position: relative;
+  background: url('https://j36949281.myjino.ru/images/about/about.jpg') no-repeat center / cover;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.about-inner {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.about-desc {
+  max-width: 350px;
+}
+
+.about-desc-company {
+  font-family: Arial, sans-serif;
+}
