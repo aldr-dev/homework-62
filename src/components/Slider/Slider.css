@@ -1,0 +1,27 @@
+.slider-backdrop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 76px);
+  background: rgba(0, 0, 0, .5);
+  z-index: 10;
+}
+
+.custom-setting-slider {
+  height: calc(100vh - 76px);
+}
+
+.slider-img {
+  height: calc(100vh - 76px);
+  object-fit: cover;
+}
+
+.carousel-caption {
+  z-index: 100;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  z-index: 100 !important;
+}
