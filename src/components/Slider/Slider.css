@@ -9,6 +9,10 @@
   z-index: 10;
 }
 
+.slider-backdrop {
+  margin-bottom: 100px;
+}
+
 .custom-setting-slider {
   height: calc(100vh - 76px);
 }

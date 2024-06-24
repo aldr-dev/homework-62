@@ -1,0 +1,8 @@
+.card-img-top {
+  box-shadow: 1px 1px 5px #000;
+}
+
+.card-img-top {
+  height: 360px;
+  object-fit: cover;
+}
