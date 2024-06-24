@@ -6,6 +6,7 @@ import Home from '../Home/Home';
 import Footer from '../../components/Footer/Footer';
 import About from '../About/About';
 import {Route, Routes} from 'react-router-dom';
+import Contacts from '../Contacts/Contacts';
 
 const Pages = () => {
   return (
@@ -20,6 +21,9 @@ const Pages = () => {
         }/>
         <Route path="/about" element={
           <About />
+        }/>
+        <Route path="/contacts" element={
+          <Contacts />
         }/>
         <Route path="*" element={<h1>Not found!</h1>}/>
       </Routes>
