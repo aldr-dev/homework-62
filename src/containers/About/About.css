@@ -9,6 +9,7 @@
   position: absolute;
   top: 50%;
   left: 2%;
+  color: #000;
 }
 
 .about-desc {
@@ -17,4 +18,20 @@
 
 .about-desc-company {
   font-family: Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .about-inner {
+    background: linear-gradient(to right, #000, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  };
+}
+
+@media screen and (max-width: 500px) {
+  .about-inner {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  };
 }

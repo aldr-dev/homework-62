@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className="about-page container-xxl">
+    <div className="about-page container-xxl mb-4">
         <div className="about-background-img mt-2 mb-4">
           <div className="about-inner">
             <h2 className="fw-bold">О нас:</h2>

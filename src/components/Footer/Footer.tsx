@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="pt-4 pb-4">
         <div className="container-xxl">
           <div className="row d-flex align-items-center">
-            <div className="col-2">
+            <div className="col-2 d-none d-lg-block ">
               <strong className="text-uppercase">velo!news</strong>
             </div>
-            <div className="col-7">
+            <div className="col-12 col-md-8 col-lg-7">
               <strong className="text-uppercase">о нас:</strong>
               <p className="brand-about-text">
                 VeloNews – самый популярный новостной портал, про велосипеды.
@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="#" className="text-decoration-none">&nbsp; admin@gmail.com</a>
               </strong>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-md-4 col-lg-3 mt-4 mt-md-0">
               <strong className="text-uppercase mb-2 d-block">подписывайтесь на нас:</strong>
               <div className="d-flex gap-3">
                 <a href="#" className="bi bi-facebook fa-fb">facebook</a>

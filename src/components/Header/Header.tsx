@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-sm">
         <div className="container-xxl">
           <NavLink to="/" className="navbar-brand d-flex align-items-center">
             <img src="https://j36949281.myjino.ru/images/logo.png" alt="Velo!News" width="50" height="50" className="d-inline-block align-text-top me-2"/>
