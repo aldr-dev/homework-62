@@ -8,6 +8,9 @@ import About from '../About/About';
 import {Route, Routes} from 'react-router-dom';
 import Contacts from '../Contacts/Contacts';
 import PageNotFounds from '../PageNotFound/PageNotFounds';
+import Portfolio from '../Portfolio/Portfolio';
+import PageAppJoke from '../PageAppJoke/PageAppJoke';
+import RandomNumbers from '../RandomNumbers/RandomNumbers';
 
 const Pages = () => {
   return (
@@ -26,6 +29,11 @@ const Pages = () => {
         <Route path="/contacts" element={
           <Contacts />
         }/>
+        <Route path="/portfolio" element={
+          <Portfolio />}>
+          <Route path="work-joke" element={<PageAppJoke />}/>
+          <Route path="work-random-number" element={<RandomNumbers />}/>
+        </Route>
         <Route path="*" element={
           <PageNotFounds />
         }/>

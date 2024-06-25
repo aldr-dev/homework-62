@@ -12,7 +12,7 @@ interface Props {
 const Card: React.FC<Props> = ({title, date, role, message, img}) => {
   return (
     <div className="card">
-        <img src={img} className="card-img-top" alt={title}/>
+        <img src={img} className="card-img-top custom-img" alt={title}/>
         <div className="card-body">
           <h4 className="card-title">{title}</h4>
           <span>Дата публикации:
